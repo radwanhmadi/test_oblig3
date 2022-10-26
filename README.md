@@ -22,14 +22,17 @@ Så kjørte jeg pycharm og åpnet prosjektet for å begynne å lage og utføre f
 Jeg opprettet leap_year Python-filen og programlogikken "def isLeapYear(year)" som i oblig 2.
 
 -------Installere avhengigheter Start push-prosessen for testen----
-  pip install flake8 pytest pytest-cov
-og 
-  pip freeze > requirements.txt
+
+              pip install flake8 pytest pytest-cov
+             og 
+              pip freeze > requirements.txt
   
 Etter at installasjonen er fullført, lager jeg en Python-testfil kalt "test_leap_year" som i oblig 2.
 
 brukte jeg:
-  pytest -v --cov
+
+                pytest -v --cov
+                
 Jeg kjørte den i terminalen for å gjøre alle kodetestene.
 
 ----- innstillere continuous integration pipeline-----------
